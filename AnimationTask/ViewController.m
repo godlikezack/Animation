@@ -13,7 +13,7 @@ static NSString * const kCellID = @"kCellID";
 @interface ViewController ()<UITableViewDelegate, UITableViewDataSource>
 
 @property (nonatomic, strong) NSArray<NSString *> *animationNames;
-
+@property (nonatomic ,strong) NSString *titleStr;
 @end
 
 @implementation ViewController
@@ -48,7 +48,14 @@ static NSString * const kCellID = @"kCellID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
    // TODO: Finish Click Action
+    self.titleStr = self.animationNames[indexPath.row];
+    [self performSegueWithIdentifier:self.animationNames[indexPath.row] sender:nil];
+
     
 }
-
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+    [segue destinationViewController].title = self.titleStr;
+}
 @end
