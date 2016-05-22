@@ -49,7 +49,6 @@
         
         
         CGRect frame = [containerView convertRect:toViewController.secondImageview.frame fromView:toViewController.view];
-        NSLog(@"frame is %@",NSStringFromCGRect(toViewController.secondImageview.frame));
         cellImageSnapshot.frame = frame;
     } completion:^(BOOL finished) {
         

@@ -9,10 +9,15 @@
 /* Begin PBXBuildFile section */
 		140DF5DE1CEF6E6C00E72B3D /* TransitionFirstToSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DF5DD1CEF6E6C00E72B3D /* TransitionFirstToSecond.m */; };
 		140DF5E11CEF743B00E72B3D /* TransitionSecondToFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 140DF5E01CEF743B00E72B3D /* TransitionSecondToFirst.m */; };
+		141C843C1CF0BBE200B242A7 /* BantangTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 141C843B1CF0BBE200B242A7 /* BantangTableViewCell.m */; };
+		141C843F1CF0D07300B242A7 /* BanTangSecondToFirst.m in Sources */ = {isa = PBXBuildFile; fileRef = 141C843E1CF0D07300B242A7 /* BanTangSecondToFirst.m */; };
 		142FAD411CECC9EB004FF24D /* ViewAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 142FAD401CECC9EB004FF24D /* ViewAnimationController.m */; };
 		142FAD451CED5A47004FF24D /* CABasicAnimation+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 142FAD441CED5A47004FF24D /* CABasicAnimation+Extension.m */; };
 		1443076E1CEEBDB90022743F /* TransitionFirstController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1443076D1CEEBDB90022743F /* TransitionFirstController.m */; };
 		144307711CEEBDCB0022743F /* TransitionSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 144307701CEEBDCB0022743F /* TransitionSecondController.m */; };
+		146826B61CF0735D006366A3 /* BanTangTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146826B51CF0735D006366A3 /* BanTangTransitionController.m */; };
+		146826B91CF076E7006366A3 /* BanTangSecondController.m in Sources */ = {isa = PBXBuildFile; fileRef = 146826B81CF076E7006366A3 /* BanTangSecondController.m */; };
+		146826BC1CF0777C006366A3 /* BanTangFirstToSecond.m in Sources */ = {isa = PBXBuildFile; fileRef = 146826BB1CF0777C006366A3 /* BanTangFirstToSecond.m */; };
 		4085CF681CB4D10D00F27AC2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF671CB4D10D00F27AC2 /* main.m */; };
 		4085CF6B1CB4D10D00F27AC2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF6A1CB4D10D00F27AC2 /* AppDelegate.m */; };
 		4085CF6E1CB4D10D00F27AC2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4085CF6D1CB4D10D00F27AC2 /* ViewController.m */; };
@@ -45,6 +50,10 @@
 		140DF5DD1CEF6E6C00E72B3D /* TransitionFirstToSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFirstToSecond.m; sourceTree = "<group>"; };
 		140DF5DF1CEF743B00E72B3D /* TransitionSecondToFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionSecondToFirst.h; sourceTree = "<group>"; };
 		140DF5E01CEF743B00E72B3D /* TransitionSecondToFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionSecondToFirst.m; sourceTree = "<group>"; };
+		141C843A1CF0BBE200B242A7 /* BantangTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BantangTableViewCell.h; sourceTree = "<group>"; };
+		141C843B1CF0BBE200B242A7 /* BantangTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BantangTableViewCell.m; sourceTree = "<group>"; };
+		141C843D1CF0D07300B242A7 /* BanTangSecondToFirst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanTangSecondToFirst.h; sourceTree = "<group>"; };
+		141C843E1CF0D07300B242A7 /* BanTangSecondToFirst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanTangSecondToFirst.m; sourceTree = "<group>"; };
 		142FAD3F1CECC9EB004FF24D /* ViewAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewAnimationController.h; sourceTree = "<group>"; };
 		142FAD401CECC9EB004FF24D /* ViewAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewAnimationController.m; sourceTree = "<group>"; };
 		142FAD431CED5A47004FF24D /* CABasicAnimation+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CABasicAnimation+Extension.h"; sourceTree = "<group>"; };
@@ -53,6 +62,12 @@
 		1443076D1CEEBDB90022743F /* TransitionFirstController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionFirstController.m; sourceTree = "<group>"; };
 		1443076F1CEEBDCB0022743F /* TransitionSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionSecondController.h; sourceTree = "<group>"; };
 		144307701CEEBDCB0022743F /* TransitionSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionSecondController.m; sourceTree = "<group>"; };
+		146826B41CF0735D006366A3 /* BanTangTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanTangTransitionController.h; sourceTree = "<group>"; };
+		146826B51CF0735D006366A3 /* BanTangTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanTangTransitionController.m; sourceTree = "<group>"; };
+		146826B71CF076E7006366A3 /* BanTangSecondController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanTangSecondController.h; sourceTree = "<group>"; };
+		146826B81CF076E7006366A3 /* BanTangSecondController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanTangSecondController.m; sourceTree = "<group>"; };
+		146826BA1CF0777C006366A3 /* BanTangFirstToSecond.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BanTangFirstToSecond.h; sourceTree = "<group>"; };
+		146826BB1CF0777C006366A3 /* BanTangFirstToSecond.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BanTangFirstToSecond.m; sourceTree = "<group>"; };
 		4085CF631CB4D10D00F27AC2 /* AnimationTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4085CF671CB4D10D00F27AC2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4085CF691CB4D10D00F27AC2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -96,6 +111,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141C84391CF0BBC900B242A7 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				141C843A1CF0BBE200B242A7 /* BantangTableViewCell.h */,
+				141C843B1CF0BBE200B242A7 /* BantangTableViewCell.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
 		142FAD421CED59BA004FF24D /* Category */ = {
 			isa = PBXGroup;
 			children = (
@@ -193,13 +217,6 @@
 		4085CF9B1CB4D12D00F27AC2 /* Pop */ = {
 			isa = PBXGroup;
 			children = (
-			);
-			name = Pop;
-			sourceTree = "<group>";
-		};
-		4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */ = {
-			isa = PBXGroup;
-			children = (
 				1443076C1CEEBDB90022743F /* TransitionFirstController.h */,
 				1443076D1CEEBDB90022743F /* TransitionFirstController.m */,
 				1443076F1CEEBDCB0022743F /* TransitionSecondController.h */,
@@ -208,6 +225,22 @@
 				140DF5DD1CEF6E6C00E72B3D /* TransitionFirstToSecond.m */,
 				140DF5DF1CEF743B00E72B3D /* TransitionSecondToFirst.h */,
 				140DF5E01CEF743B00E72B3D /* TransitionSecondToFirst.m */,
+			);
+			name = Pop;
+			sourceTree = "<group>";
+		};
+		4085CF9C1CB4D13B00F27AC2 /* TransitionAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				141C84391CF0BBC900B242A7 /* view */,
+				146826B41CF0735D006366A3 /* BanTangTransitionController.h */,
+				146826B51CF0735D006366A3 /* BanTangTransitionController.m */,
+				146826BA1CF0777C006366A3 /* BanTangFirstToSecond.h */,
+				146826BB1CF0777C006366A3 /* BanTangFirstToSecond.m */,
+				146826B71CF076E7006366A3 /* BanTangSecondController.h */,
+				146826B81CF076E7006366A3 /* BanTangSecondController.m */,
+				141C843D1CF0D07300B242A7 /* BanTangSecondToFirst.h */,
+				141C843E1CF0D07300B242A7 /* BanTangSecondToFirst.m */,
 			);
 			name = TransitionAnimation;
 			sourceTree = "<group>";
@@ -357,10 +390,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				140DF5E11CEF743B00E72B3D /* TransitionSecondToFirst.m in Sources */,
+				141C843C1CF0BBE200B242A7 /* BantangTableViewCell.m in Sources */,
 				142FAD451CED5A47004FF24D /* CABasicAnimation+Extension.m in Sources */,
+				141C843F1CF0D07300B242A7 /* BanTangSecondToFirst.m in Sources */,
 				1443076E1CEEBDB90022743F /* TransitionFirstController.m in Sources */,
 				4085CF6E1CB4D10D00F27AC2 /* ViewController.m in Sources */,
+				146826B61CF0735D006366A3 /* BanTangTransitionController.m in Sources */,
 				144307711CEEBDCB0022743F /* TransitionSecondController.m in Sources */,
+				146826B91CF076E7006366A3 /* BanTangSecondController.m in Sources */,
+				146826BC1CF0777C006366A3 /* BanTangFirstToSecond.m in Sources */,
 				4085CF6B1CB4D10D00F27AC2 /* AppDelegate.m in Sources */,
 				4085CF681CB4D10D00F27AC2 /* main.m in Sources */,
 				140DF5DE1CEF6E6C00E72B3D /* TransitionFirstToSecond.m in Sources */,
