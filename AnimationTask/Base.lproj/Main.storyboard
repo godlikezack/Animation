@@ -135,22 +135,22 @@
                         <viewControllerLayoutGuide type="bottom" id="vi8-yc-Zaf"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zhN-w8-IdB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="200" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xtq-er-ZOW">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="BanTangCell" rowHeight="200" id="MvN-jb-HIx" customClass="BantangTableViewCell">
-                                        <rect key="frame" x="0.0" y="92" width="375" height="200"/>
+                                        <rect key="frame" x="0.0" y="92" width="414" height="200"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="MvN-jb-HIx" id="J00-48-LVb">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="199.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="199.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EE928B36-1AF4-442D-A3C1-B242CB01F26C" translatesAutoresizingMaskIntoConstraints="NO" id="7Ie-GP-Tpc">
-                                                    <rect key="frame" x="8" y="8" width="359" height="184"/>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="5E1B4E43-FBDE-4F8E-A775-5BB346107664" translatesAutoresizingMaskIntoConstraints="NO" id="7Ie-GP-Tpc">
+                                                    <rect key="frame" x="8" y="8" width="398" height="184"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="184" id="Jgn-Q2-oGD"/>
                                                     </constraints>
@@ -181,14 +181,14 @@
                             <constraint firstAttribute="trailing" secondItem="xtq-er-ZOW" secondAttribute="trailing" id="xqg-1g-trn"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="tableView" destination="xtq-er-ZOW" id="qfd-1T-zdi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hHh-FV-fro" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1442.5" y="1822.5"/>
+            <point key="canvasLocation" x="1400" y="1823"/>
         </scene>
         <!--Ban Tang Second Controller-->
         <scene sceneID="hKz-Gw-krF">
@@ -199,31 +199,31 @@
                         <viewControllerLayoutGuide type="bottom" id="N3h-H6-1zg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="hsU-9a-Z1c">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b0" translatesAutoresizingMaskIntoConstraints="NO" id="TPP-1o-vW8">
-                                <rect key="frame" x="0.0" y="20" width="375" height="240"/>
+                                <rect key="frame" x="0.0" y="64" width="414" height="240"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="240" id="rsO-YJ-Qn2"/>
+                                    <constraint firstAttribute="height" constant="240" id="gXr-PS-9gB"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="TPP-1o-vW8" firstAttribute="top" secondItem="oeo-4E-3GR" secondAttribute="bottom" id="7Vo-Fm-ZCL"/>
-                            <constraint firstItem="TPP-1o-vW8" firstAttribute="leading" secondItem="hsU-9a-Z1c" secondAttribute="leading" id="IUN-SR-DoR"/>
-                            <constraint firstAttribute="trailing" secondItem="TPP-1o-vW8" secondAttribute="trailing" id="fed-yQ-7ja"/>
+                            <constraint firstItem="TPP-1o-vW8" firstAttribute="leading" secondItem="hsU-9a-Z1c" secondAttribute="leading" id="E3a-gd-aJq"/>
+                            <constraint firstItem="TPP-1o-vW8" firstAttribute="top" secondItem="hsU-9a-Z1c" secondAttribute="top" constant="64" id="Sdp-Z6-88r"/>
+                            <constraint firstAttribute="trailing" secondItem="TPP-1o-vW8" secondAttribute="trailing" id="jng-xo-iqJ"/>
                         </constraints>
                     </view>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
                     <connections>
                         <outlet property="imageView" destination="TPP-1o-vW8" id="yjW-rU-Vzt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="whC-M0-OC1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1947.5" y="1842.5"/>
+            <point key="canvasLocation" x="1868" y="1929"/>
         </scene>
         <!--Transition Second Controller-->
         <scene sceneID="tuW-BQ-yjZ">
@@ -296,7 +296,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="EE928B36-1AF4-442D-A3C1-B242CB01F26C" width="321" height="151">
+        <image name="5E1B4E43-FBDE-4F8E-A775-5BB346107664" width="321" height="151">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw

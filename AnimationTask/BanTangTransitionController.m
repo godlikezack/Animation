@@ -45,7 +45,8 @@ static NSString * const kBanTangCell = @"BanTangCell";
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     BantangTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:kBanTangCell];
-    cell.imageView.image = [UIImage imageNamed:@"b0"];
+    cell.imaView.image = [UIImage imageNamed:@"b0"];
+    
     return cell;
 }
 

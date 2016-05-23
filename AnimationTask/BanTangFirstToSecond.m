@@ -12,7 +12,7 @@
 #import "BantangTableViewCell.h"
 @implementation BanTangFirstToSecond
 - (NSTimeInterval)transitionDuration:(nullable id <UIViewControllerContextTransitioning>)transitionContext{
-    return 0.5;
+    return 1;
 }
 
 - (void)animateTransition:(id<UIViewControllerContextTransitioning>)transitionContext {
@@ -30,7 +30,7 @@
     UIView *cellImageSnapshot = [cell.imaView snapshotViewAfterScreenUpdates:YES];
     cellImageSnapshot.frame = [containerView convertRect:cell.imaView.frame fromView:cell.imaView.superview];
     NSLog(@"%s,line num = %d \n %@",__func__,__LINE__,NSStringFromCGRect([containerView convertRect:cell.imaView.frame fromView:cell.imaView.superview]));
-    cell.imaView.hidden = YES;
+//    cell.imaView.hidden = YES;
     
     // Setup the initial view states
     toViewController.view.frame = [transitionContext finalFrameForViewController:toViewController];
@@ -41,16 +41,18 @@
     
     [UIView animateWithDuration:duration animations:^{
         // Fade in the second view controller's view
-        toViewController.view.alpha = 1.0;
         
         // Move the cell snapshot so it's over the second view controller's image view
-        CGRect frame = [containerView convertRect:toViewController.imageView.frame fromView:toViewController.view];
+        CGRect frame = [containerView convertRect:toViewController.imageView.frame fromView:toViewController.imageView.superview];
+        NSLog(@"%s,line num = %d \n %@",__func__,__LINE__,NSStringFromCGRect([containerView convertRect:toViewController.imageView.frame fromView:toViewController.imageView.superview]));
 
         cellImageSnapshot.frame = frame;
+        toViewController.view.alpha = 1.0;
+
     } completion:^(BOOL finished) {
         // Clean up
         toViewController.imageView.hidden = NO;
-        cell.imaView.hidden = NO;
+//        cell.imaView.hidden = NO;
         [cellImageSnapshot removeFromSuperview];
         
         // Declare that we've finished
